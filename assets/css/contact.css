@@ -1,0 +1,255 @@
+.app-container {
+    height: 1000px;
+    /* background-image: url('../img/slider/slidertemmo.png'); */
+}
+
+
+.home-contact-title {
+    margin-top: 60px;
+    width: 100%;
+    height: 20rem;
+    font-size: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    font-weight: bold;
+    color: transparent;
+    background-image:linear-gradient(180deg, #db7369, #e2cab1);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.form-contact {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.form-option-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.form-option-title {
+    color: var(--white-color);
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.form-option-description {
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.form-option-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+
+.form-body-link {
+    text-decoration: none;
+    color: var(--white-color);
+    display: block;
+    background-color: #db7369;
+    padding: 10px;
+    width: 280px;
+    font-size: 1.6rem;
+    border-radius: 3px;
+}
+
+.form-body-link:hover {
+    box-shadow: 0 0 20px var(--second-color);
+    color: var(--black-color);
+}
+
+.form-option-footer {
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-footer-link {
+    text-decoration: none;
+    display: bloc;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--second-color);
+    text-align: center;
+    color: var(--icon-color);
+    font-size: 2.4rem;
+    border-radius: 50%;
+}
+
+
+.form-footer-link:hover {
+    box-shadow: 0 0 20px #ccff33;
+}
+
+.form-input-right {
+    width: 400px;
+    height: 450px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+
+.form-right-wrap {
+    margin-left: 50px;
+    position: relative;
+    height: 450px;
+    margin-top: 30px;
+}
+
+.label-name,
+.label-mail,
+.label-message {
+    font-size: 2rem;
+    color: var(--black-color);
+}
+
+.form-right-head {
+    width: 100%;
+    height: 70px;
+}
+
+.form-input-name {
+    height: 60px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.form-input-icon {
+    font-size: 1.8rem;
+    padding: 0 10px;
+}
+
+.input-name {
+    height: 30px;
+    width: 80%;
+    border: 2px solid var(--second-color);
+    border-radius: 5px;
+}
+
+
+
+.form-right-body {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+}
+
+.form-input-mail {
+    height: 60px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.input-mail {
+    height:30px;
+    width: 80%;
+    border: 2px solid var(--second-color);
+    border-radius: 5px;
+}
+
+.form-right-footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+
+.input-message {
+    height:100px;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid var(--second-color);
+    border-radius: 5px;
+}
+
+.btn-send {
+    display: block;
+    margin-top: 70px;
+    padding: 10;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: var(--second-color);
+    text-decoration: none;
+    color: var(--white-color);
+    position: absolute;
+    right: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2rem;
+    border: none;
+}
+
+.btn-send:hover {
+    box-shadow: 0 0 20px #ccff33;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 740px) {
+    .form-input-right {
+        display: none;
+    }
+
+    .home-contact-title {
+        font-size: 7rem;
+        line-height: 7rem;
+        height: 7rem;
+        text-align: center;
+    }
+
+    
+    .form-option-body {
+        margin: 80px auto;
+    }
+
+    .form-option-footer {
+        margin: 30px auto;
+    }
+
+    .form-footer-link {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 2.2rem;
+    }
+
+    .form-option-footer {
+        width: 300px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    .form-right-wrap {
+        margin-left: 18px;
+        margin-top: 25px;
+    }
+
+    .form-footer-link {
+        width: 50px;
+        height: 50px;
+        line-height: 40px;
+        font-size: 2.4rem;
+    }
+
+    .form-option-footer {
+        width: 300px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

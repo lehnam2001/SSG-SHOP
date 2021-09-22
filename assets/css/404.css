@@ -1,0 +1,57 @@
+.app-container {
+    height: 350px;
+}
+
+.title-notfound {
+    font-size: 3rem;
+    line-height: 3rem;
+    color: var(--white-color);
+    display: block;
+    margin-top: 100px;
+    
+}
+
+.back-home {
+    display: block;
+    width: 200px;
+    margin: 80px auto;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--white-color);
+    font-size: 2rem;
+    border-radius: 20px;
+    animation: backhome linear 1s infinite;
+    box-shadow: 0 0 20px #ccff33;
+}
+
+@keyframes backhome {
+    0% {
+        background-color: var(--second-color);
+        
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+.back-home:hover {
+    color: var(--black-color);
+}
+
+
+@media (max-width: 1080px) {
+    .app-container {
+        height: 400px;
+    }
+
+    .title-notfound {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        
+    }
+}

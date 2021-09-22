@@ -1,0 +1,148 @@
+.app-container {
+    height: auto;
+    background-image: url('../img/slider/slidertemmo.png');
+}
+
+.about-head {
+    margin-top: 60px;
+    width: 100%;
+    height: 20rem;
+    font-size: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    font-weight: bold;
+    color: transparent;
+    background-image:linear-gradient(180deg, #db7369, #e2cab1);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.about-navigation{
+    width: 100%;
+    height: 20px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-image: url('../img/recently-played/played2.jpg'); */
+}
+
+.about-nav-item {
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 20px;
+    color:#db7369;
+    background-color: var(--second-color);
+}
+
+.about-nav-item:hover {
+    color: var(--black-color);
+    box-shadow: 0 0 20px #CCFF33;
+}
+
+
+.about-us-body {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 140px;
+    /* background-image: url('../img/coder1.png'); */
+}
+
+.about-title {
+    color: var(--black-color);
+    font-size: 4rem;
+    padding: 20px 0;
+    margin-left: 20px;
+}
+.about-title.white {
+    color:var(--white-color);
+}
+
+
+.about-introduce {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--black-color);
+    text-align: left;
+    margin-left: 20px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.about-history-body {
+    width: 100%;
+    height: 200px;
+    /* background-image: url('../img/history.jfif'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-hisotry-desciption {
+    color: var(--white-color);
+    font-size: 2rem;
+    margin-left: 20px;
+    text-align: left;
+    display: block;
+    line-height: 2.5rem;
+}
+
+.about-final {
+    margin-top: 100px;
+    width: 100%;
+    height: 10rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-weight: bold;
+    color: transparent;
+    background-image:linear-gradient(180deg, #db7369, #e2cab1);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1080px) {
+    .app-container {
+        background-image: url('../img/backgroundrepeat.jpg');
+    }
+
+    .about-navigation{
+        height: auto;
+        background-image: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-body {
+        margin-top: 100px;
+        height: auto;
+        background-image: none;
+    }
+
+    .about-title {
+        color: var(--white-color);
+       
+    }
+
+    
+    .about-introduce {
+        color: var(--white-color);
+       
+    }
+
+    .about-history-body {
+        background-image: none;
+        height: auto;
+    }
+
+}   

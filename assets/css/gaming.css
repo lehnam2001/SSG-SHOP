@@ -1,0 +1,369 @@
+.app-container {
+    height: 6500px;
+}
+
+.gaming-wrap {
+    margin: 10px 10px 0 10px;
+    flex: 1;
+    height: 6400px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px var(--icon-color);
+}
+
+.gaming-title {
+    margin-top: 60px;
+    width: 100%;
+    height: 20rem;
+    font-size: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    font-weight: bold;
+    color: transparent;
+    background-image:linear-gradient(180deg, #db7369, #e2cab1);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.category-gaming {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.category-item {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--second-color);
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 25px;
+}
+
+.category-item:hover {
+    box-shadow: 0 0 20px #ccff33;
+    color: var(--black-color);
+}
+
+.game-lol-title {
+    height: 125px;
+    font-size: 4rem;
+    line-height: 14rem;
+    margin-top: 500px;
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 100%;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(180deg, #db7369, #e2cab1);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Product Gaming */
+
+.product-gaming-list {
+    height: auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product-gaming-item {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 465px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--second-color);
+    overflow: hidden;
+}
+
+.product-gaming-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px var(--second-color);
+}
+
+.product-gaming-item:hover 
+.product-gaming-add {
+    display: block;
+}
+
+.product-gaming-item:hover 
+.product-gaming-details {
+    display: block;
+}
+
+.product-gaming-add:hover,
+.product-gaming-details:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px #ccff33;
+    color: var(--black-color);
+    transition: all linear  0.1s;
+}
+
+.product-gaming-add {
+    width: 90%;
+    height: 40px;
+    background-color: var(--second-color);
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 2rem;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+
+.product-gaming-details {
+    width: 90%;
+    height: 40px;
+    left: 5%;
+    top: 30%;
+    background-color:#FF6666;
+    color: #fff;
+    position: absolute;
+    font-size: 2rem;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+
+.product-gaming-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.gaming-item-head {
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gaming-item-account {
+    font-size: 1.9rem;
+    margin: 10px 0;
+}
+
+.gaming-item-skin {
+    font-size: 1.7rem;
+}
+
+.gaming-item-body {
+    display: flex;
+    margin: 5px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gaming-item-review {
+    font-size: 1.4rem;
+    color: var(--white-color);
+}
+
+.gaming-item-icon {
+    font-size: 1rem;
+    color: gold;
+}
+
+.gaming-item-price {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    margin-top: 5px;
+}
+
+.gaming-item-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gaming-item-supplier {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+.gaming-item-publisher {
+    color: var(--white-color);
+    font-size: 1.4rem;
+}
+
+
+/* Responsive */
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1080px) {
+    .app-container {
+        height: auto;
+    }
+
+    .sidebar {
+        display: none;
+    }
+    
+    .gaming-wrap {
+        height: auto;
+        box-shadow: none;
+    }
+
+    .gaming-title {
+        height: 17rem;
+        font-size: 7rem;
+        line-height: 7rem;
+    }
+
+ 
+    
+    .category-gaming {
+        width: 100%;
+        height: auto;
+    }
+    
+    .category-item {
+        width: 160px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 1.7rem;
+    }
+
+    .product-gaming-list {
+        height: auto;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .product-gaming-item {
+        display: flex;
+        flex-direction: column;
+        width: 31%;
+        box-shadow: 0 0 5px var(--second-color);
+        height: 465px;
+        position: relative;
+        margin-top: 10px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .app-container {
+        height: auto;
+    }
+
+    .sidebar {
+        display: none;
+    }
+    
+    .gaming-wrap {
+        height: auto;
+        box-shadow: none;
+    }
+
+    .gaming-title {
+        height: 15rem;
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .game-lol-title {
+        height: 10rem;
+        font-size: 2.6rem;
+        line-height: 10rem;
+        margin-top: 500px;
+        margin-left: 20px;
+        margin-top: 60px;
+        width: 100%;
+        font-weight: bold;
+        color: transparent;
+        background-image: linear-gradient(180deg, #db7369, #e2cab1);
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+ 
+    
+    .category-gaming {
+        width: 100%;
+        height: auto;
+    }
+    
+    .category-item {
+        width: 140px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1.5rem;
+    }
+
+    .product-gaming-list {
+        height: auto;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .product-gaming-item {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+        box-shadow: 0 0 5px var(--second-color);
+        height: 380px;
+        position: relative;
+        margin-top: 10px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    
+.product-gaming-add {
+    top: 15%;
+}
+
+.product-gaming-details {
+    top: 30%;
+}
+
+    .gaming-item-publisher {
+        display: none;
+    }
+
+    .gaming-item-account {
+        font-size: 1.7rem;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .product-gaming-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+

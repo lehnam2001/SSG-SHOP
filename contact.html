@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="/assets/img/logotitle3.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/contact-responsive.css">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="wide">
+                <nav class="header-navbar">
+                    <!-- Danh sách 1 -->
+                    <ul class="navbar-list">
+                        <li class="navbar-item has-qr separate">
+                            Vào cửa hàng trên ứng dụng SSG
+                            <!-- Header QR code -->
+                            <div class="qr-wrap">
+                                <img src="./assets/img/qr-code-cua-nam.png" alt="qr code" class="qr-img">
+                                <div class="download-apps">
+                                    <a href="" class="link-app">
+                                        <img src="./assets/img/ggplay.png" alt="Google Play" class="download-app-img">
+                                    </a>
+                                    <a href="" class="link-app">
+                                        <img src="./assets/img/appstore.png" alt="Apps Store" class="download-app-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- mobile and tablet-->
+                        <li class="navbar-item-mobile">
+                            <label for="nav-mobile" class="nav-mobile-btn">
+                                <i class="fas fa-bars"></i>
+                            </label>
+                            <input type="checkbox" name="" class="nav-input" id="nav-mobile">
+
+                            <label for="nav-mobile" class="nav-overlay"></label>
+
+                            <nav for="nav-mobile" class="nav-mobile-left">
+                                <label for="nav-mobile" class="nav-mobile-close">
+                                    <i class="fas fa-times"></i>
+                                </label>
+                                <ul class="nav-mobile-list">
+                                    <li class="mobile-item">
+                                        <a href="./index.html" class="mobile-item-link">
+                                            <i class="mobile-item-icon fas fa-home"></i>
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li class="mobile-item">
+                                        <a href="./about.html" class="mobile-item-link">
+                                            <i class="mobile-item-icon fas fa-users-cog"></i>
+                                            About
+                                        </a>
+                                    </li>
+                                    <li class="mobile-item">
+                                        <a href="./gaming.html" class="mobile-item-link">
+                                            <i class="mobile-item-icon fas fa-gamepad"></i>
+                                            Gaming
+                                        </a>
+                                    </li>
+                                    <li class="mobile-item">
+                                        <a href="./socials.html" class="mobile-item-link">
+                                            <i class="mobile-item-icon fab fa-twitter-square"></i>
+                                            Socials
+                                        </a>
+                                    </li>
+                                    <li class="mobile-item">
+                                        <a href="./contact.html" class="mobile-item-link">
+                                            <i class="mobile-item-icon fas fa-phone-square-alt"></i>
+                                            Contacts
+                                        </a>
+                                    </li>
+                                    <li class="mobile-item">
+                                        <a href="" class="mobile-item-link">
+                                            <i class="mobile-item-icon fas fa-sign-in-alt"></i>
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="brand-mobile">
+                            <a href="./index.html" class="brand-mobile-text">
+                                SOCIALS & SPORTS GAMING
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <span class="no-pointer">Kết nối</span>
+                            <a href="https://www.facebook.com/Lehoainam2703/" class="navbar-icon-link">
+                                <i class="navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/lehoainam2703/" class="navbar-icon-link">
+                                <i class="navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Danh sách 2 -->
+                    <ul class="navbar-list">
+                        <li class="navbar-item has-notify">
+                            <i class="navbar-icon fas fa-bell"></i>
+                            Thông báo
+                            <!-- Hover vào thông báo hiện ra -->
+                            <div class="notify-wrap">
+                                <header class="notify-heading">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="notify-list">
+                                    <li class="notify-item notify-no-seen">
+                                        <a href="" class="notify-link">
+                                            <img src="./assets/img/notify-header/notify1.jpg" alt="" class="notify-img">
+                                            <div class="notify-info-wrap">
+                                                <span class="notify-name">
+                                                    Dàn trang phục SIÊU PHẨM 2021 chính thức được công bố
+                                                </span>
+                                                <span class="notify-description">
+                                                    Mordekaiser, Renekton, Senna, Sejuani, Varus và Sylas sẽ là 6 thành
+                                                    viên tiếp theo gia nhập biệt đội SIÊU PHẨM.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="notify-item notify-no-seen">
+                                        <a href="" class="notify-link">
+                                            <img src="./assets/img/notify-header/notify2.png" alt="" class="notify-img">
+                                            <div class="notify-info-wrap">
+                                                <span class="notify-name">
+                                                    LMHT: Nhóm trang phục Hắc Tinh 2021 lộ diện đẹp mê hồn
+                                                </span>
+                                                <span class="notify-description">
+                                                    Mới đây Riot Games đã chính thức giới thiệu nhóm trang phục Hắc Tinh
+                                                    tuyệt đẹp...
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="notify-item">
+                                        <a href="" class="notify-link">
+                                            <img src="./assets/img/notify-header/notify3.jpg" alt="" class="notify-img">
+                                            <div class="notify-info-wrap">
+                                                <span class="notify-name">
+                                                    LMHT: Lịch ra mắt trang phục trong sự kiện Vệ Binh Ánh Sáng
+                                                </span>
+                                                <span class="notify-description">
+                                                    Vệ Binh Ánh Sáng là sự kiện mới nhất được Riot Games ra mắt trong
+                                                    LMHT,
+                                                    Sự kiện này sẽ kéo dài từ 2/9 đến ngày 29/9
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="notify-footer-wrap">
+                                    <a href="" class="notify-footer-wrap-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="./contact.html" class="navbar-item-link">
+                                <i class="navbar-icon far fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- Đăng ký -->
+                        <li class="navbar-item strong  separate">
+                            
+                           <label for="navbar-register" style="cursor: pointer;">
+                                Đăng ký
+                           </label>
+
+                           <input type="checkbox" name="" id="navbar-register" class="navbar-register-check" hidden>
+
+                           <label  for="navbar-register" class="nav-overlay-register" ></label>
+                          
+                           <div  class="navbar-item-register" >
+                               <label for="navbar-register" class="navbar-register-head">
+                                <i class="register-close-btn fas fa-times-circle"></i>
+                                <a href="./index.html" class="navbar-home-page">Back SSG</a>
+                               </label>
+
+                               <div class="navbar-register-body">
+                                   <div class="navbar-register-left">
+                                       <img src="./assets/img/register/register.webp" alt="" class="register-left-img">
+                                   </div>
+
+                                   <div class="form-register-right">
+                                       <div class="form-register-wrap">
+                                           <div class="form-register-head">
+                                               <span class="form-register-title">
+                                                   Create your account
+                                               </span>
+                                               <span class="form-register-desciption">
+                                                    Welcome to SSG
+                                               </span>
+                                           </div>
+
+                                           <form class="form-register-body">
+                                               <div class="form-register-input">
+                                                    <i class="form-resgister-icon name fas fa-user"></i>
+                                                    <input type="text"  class="form-input"  placeholder="Enter your name" required>
+                                               </div>
+                                               <div class="form-register-input">
+                                                    <i class="form-resgister-icon email  fas fa-envelope-square"></i>   
+                                                    <input type="email"  class="form-input" placeholder="Enter your email" required>
+                                                </div>
+                                                <div class="form-register-input">
+                                                    <i class="form-resgister-icon fas fa-lock"></i>
+                                                    <input type="password" class="form-input" placeholder="Enter your password" required>
+                                                </div>
+                                                <div class="form-register-input">
+                                                    <i class="form-resgister-icon fas fa-lock"></i>
+                                                    <input type="password"  class="form-input" placeholder="Enter the password" required>
+                                                </div>
+                                               
+                                                <div class="form-register-agree">
+                                                     <input type="checkbox" required>  I agree to SSG
+                                                </div>
+
+                                                <div class="form-register-create">
+                                                   <input type="submit" value="Create my account" class="create-account">
+                                               </div>
+
+                                               <span class="footer-form">Already have an account?
+                                                    <a href="" class="signin-link">Sign in</a>
+                                               </span>
+                                           </form>
+
+                                       </div>
+                                   </div>
+                               </div>
+                               
+
+                           </div>
+                     
+
+
+
+                        </li>
+                        <!-- Đăng nhập -->
+                        <li class="navbar-item strong">
+                            
+                            <label for="navbar-signin" style="cursor: pointer;">
+                                 Đăng nhập
+                            </label>
+ 
+                            <input type="checkbox" name="" id="navbar-signin" class="navbar-sign-check" hidden>
+ 
+                            <label  for="navbar-signin" class="nav-overlay-signin" ></label>
+                           
+                            <div  class="navbar-item-signin" >
+                                <label for="navbar-signin" class="navbar-signin-head">
+                                 <i class="signin-close-btn fas fa-times-circle"></i>
+                                 <a href="./index.html" class="navbar-home-page">Back SSG</a>
+                                </label>
+ 
+                                <div class="navbar-register-body">
+                                    <div class="navbar-signin-left">
+                                        <img src="./assets/img/register/pic1.jpg" alt="" class="signin-left-img">
+                                    </div>
+ 
+                                    <div class="form-signin-right">
+                                        <div class="form-signin-wrap">
+                                            <div class="form-signin-head">
+                                                <span class="form-signin-title">
+                                                    SIGN IN
+                                                </span>
+                                                <span class="form-signin-desciption">
+                                                    Login your account
+                                                </span>
+                                            </div>
+ 
+                                            <form class="form-signin-body">
+                                                <div class="form-signin-input">
+                                                     <i class="form-signin-icon name fas fa-user"></i>
+                                                     <input type="text"  class="form-input-signin" placeholder="Enter your name" required>
+                                                </div>
+
+                                                 <div class="form-signin-input">
+                                                     <i class="form-signin-icon fas fa-lock"></i>
+                                                     <input type="password"  class="form-input-signin"  placeholder="Enter your password" required>
+                                                 </div>
+                                                
+                                                 <div class="form-signin-check">
+                                                      <input type="checkbox" required> Rememer me
+                                                 </div>
+ 
+                                                 <div class="form-sign-in">
+                                                    <input type="submit" value="SIGN IN" class="signin-account">
+                                                </div>
+ 
+                                                <span class="footer-form">Don't have an account?
+                                                     <a href="" class="signin-link">Sign up</a>
+                                                </span>
+                                            </form>
+ 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </li>
+                    </ul>
+                </nav>
+
+                <!-- Logo - tìm kiếm - giỏ hàng -->
+                <div class="the-rest-of-header">
+
+                    <!-- search mobile -->
+                    <label for="search-mobile-checkbox">
+                        <i class="search-mobile-icon fas fa-search"></i>
+                    </label>
+
+                    <input type="checkbox" id="search-mobile-checkbox" hidden>
+
+                    <label for="search-mobile-checkbox" class="search-mobile-wrap">
+                        <div class="search-mobile">
+                            <input type="text" class="search-mobile-input" placeholder="Search for a games, tournament">
+
+                            <div class="search-history-mobile">
+                                <div class="history-mobile-heading">
+                                    <h4 class="history-mobile-title">
+                                        Lịch sử tìm kiếm
+                                    </h4>
+                                </div>
+                                <ul class="history-mobile-list">
+                                    <li class="history-mobile-item">
+                                        League of Legends
+                                    </li>
+                                    <li class="history-mobile-item">
+                                        Teamfight Tactics
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search-mobile-btn">
+                            <i class="search-mobile-icon-s fas fa-search-plus"></i>
+                        </div>
+                    </label>
+                    <!-- End search mobile -->
+
+                    <!-- Logo -->
+                    <a href="./index.html">
+                        <div class="header-logo">
+                            <img src="./assets/img/project-logo-ssg.gif" alt="" class="header-logo-img">
+                        </div>
+                    </a>
+
+                    <!-- Block tìm kiếm -->
+                    <div class="header-search-wrap">
+                        <!-- Input tìm kiếm -->
+                        <div class="search-input-wrap">
+                            <input type="text" class="search-input" placeholder="Search for a game, tournament">
+
+                            <!-- Lịch sử tìm kếm -->
+                            <div class="search-history">
+                                <h3 class="history-heading"> Lịch sử tìm kiếm </h3>
+                                <ul class="history-list">
+                                    <li class="history-item">
+                                        <a href="">League of Legend</a>
+                                    </li>
+                                    <li class="history-item">
+                                        <a href="">Teamfight Tactics</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- -->
+                        <div class="search-select">
+                            <span class="search-select-label">Trong shop</span>
+                            <i class="search-select-icon fas fa-angle-down"></i>
+
+                            <ul class="option-list">
+                                <li class="option-item active">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Btn tìm kiếm -->
+                        <button class="header-search-btn">
+                            <i class="header-search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!-- Giỏ hàng -->
+                    <div class="header-cart">
+                        <div class="cart-wrap">
+                            <i class="cart-icon fas fa-shopping-cart "></i>
+                            <span class="cart-notify">3</span>
+
+                            <!-- block chứa danh sách item -->
+                            <div class="header-cart-list">
+                                <h4 class="cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="cart-list">
+                                    <!-- cart item -->
+                                    <li class="cart-item">
+                                        <img src="./assets/img/lol-img/lol6.jpg" alt="" class="cart-img">
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">League of Legends</h5>
+                                                <div class="cart-itemp-price-wrap">
+                                                    <span class="cart-item-price">870.000 vnđ</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    Nhà phát hành: Riot games
+                                                </span>
+                                                <span class="cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cart-item">
+                                        <img src="./assets/img/pubg/pubg10.jpg" alt="" class="cart-img">
+                                        <div class="cart-item-info">
+                                            <div class="cart-item-head">
+                                                <h5 class="cart-item-name">PUBG</h5>
+                                                <div class="cart-itemp-price-wrap">
+                                                    <span class="cart-item-price">2.200.000đ</span>
+                                                    <span class="cart-item-multiply">x</span>
+                                                    <span class="cart-item-quantity">3</span>
+                                                </div>
+                                            </div>
+                                            <div class="cart-item-body">
+                                                <span class="cart-item-description">
+                                                    Nhà phát hành: KRAFTON
+                                                </span>
+                                                <span class="cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="./cart.html" class="btn-cart">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+
+        <div class="navigation">
+            <div class="wide">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a href="./index.html" class="navigation-item-link">
+                            <i class="navigation-item-icon fas fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="navigation-item">
+                        <a href="./about.html" class="navigation-item-link">
+                            <i class="navigation-item-icon fas fa-users-cog"></i>
+                            About
+                        </a>
+
+                        <ul class="dropdown-about-list">
+                            <li class="about-item">
+                                <a href="./about.html" class="about-item-link">
+                                    <i class="about-item-icon about-item-icon fas fa-users"></i>
+                                    Về chúng tôi
+                                </a>
+                            </li>
+                            <li class="about-item">
+                                <a href="./about.html" class="about-item-link">
+                                    <i class="about-item-icon fas fa-history"></i>
+                                    Lịch sử hình thành
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="navigation-item">
+                        <a href="./gaming.html" class="navigation-item-link">
+                            <i class="navigation-item-icon fas fa-gamepad"></i>
+                            Gaming
+                        </a>
+                        <ul class="dropdown-gaming-list">
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    League of Legends
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    PUBG Mobile
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    Play together
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    Fifa online 4
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    Warface Mobile
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    Call Of Duty
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    World of Tanks
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    Genshin Impact
+                                </a>
+                            </li>
+                            <li class="gaming-item">
+                                <a href="./gaming.html" class="gaming-item-link">
+                                    <i class="gaming-item-icon fas fa-hand-point-right"></i>
+                                    Rules of Survival
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="navigation-item">
+                        <a href="./socials.html" class="navigation-item-link">
+                            <i class="navigation-item-icon social-item-icon-home fab fa-speakap"></i>
+                            Socials
+                        </a>
+
+                        <ul class="dropdown-social-list">
+                            <li class="social-item">
+                                <a href="./index.html" class="social-item-link">
+                                    <i class="social-item-icon-home fab fa-speakap"></i>SG
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="https://www.facebook.com/" class="social-item-link">
+                                    <i class="social-item-icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="https://twitter.com/?lang=en" class="social-item-link">
+                                    <i class="social-item-icon fab fa-twitter-square"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="https://www.instagram.com/" class="social-item-link">
+                                    <i class="social-item-icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="navigation-item current">
+                        <a href="./contact.html" class="navigation-item-link">
+                            <i class="navigation-item-icon fas fa-phone-square-alt"></i>
+                            Contacts
+                        </a>
+                        <ul class="dropdown-contact-list">
+                            <h2 class="contact-title">Liên hệ với chung tôi
+                                <i class="fas fa-hand-point-down"></i>
+                            </h2>
+                            <li class="contact-item">
+                                <a href="https://www.facebook.com/Lehoainam2703/" class="contact-item-link">
+                                    <i class="contact-item-icon fab fa-facebook"></i>
+                                    Facebook: Lehoainam2703/
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="mailto:nam.lehoai270301@gmail.com" class="contact-item-link">
+                                    <i class="contact-item-icon fas fa-envelope-square"></i>
+                                    Email: nam.lehoai270301@gmail.com
+                                </a>
+                            </li>
+                            <li class="contact-item">
+                                <a href="tel:+84 363556909" class="contact-item-link">
+                                    <i class="contact-item-icon fas fa-phone-square-alt"></i>
+                                    Phone: 0363556909
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Navigation mobile -->
+        <div class="navigation-mobile">
+            <div class="wide">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a href="./404.html" class="navigation-item-link">
+                            <i class="mobile-item-icon fas fa-plus-circle"></i>
+                            New
+                        </a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="./404.html" class="navigation-item-link">
+                            <i class="mobile-item-icon fas fa-tv"></i>
+                            Watch
+                        </a>
+                    </li>
+                    <li class="navigation-item">
+
+                        <a href="./404.html" class="navigation-item-link">
+                            <i class="mobile-item-icon fas fa-gamepad"></i>
+                            Play
+                        </a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="./404.html" class="navigation-item-link">
+                            <i class="mobile-item-icon fas fa-crown"></i>
+                            TOP
+                        </a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="./404.html" class="navigation-item-link">
+                            <i class="mobile-item-icon fas fa-truck"></i>
+                            Order
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="app-container">
+            <div class="wide">
+                <div class="app-contact">
+                    <h1 class="home-contact-title">Contact Us</h1>
+                    <div class="form-contact">
+                        <div class="form-option-left">
+                            <div class="form-option-head">
+                                <h1 class="form-option-title">
+                                    Contact infomation
+                                </h1>
+                                <span class="form-option-description">
+                                    Fill up the form and our Team will get back to you with 24 hours. 
+                                </span>
+                            </div>
+                            
+                            <div class="form-option-body">
+                                <a href="tel:0363556909" class="form-body-link">
+                                    <i class="fas fa-phone-square-alt"></i>
+                                     +84 363556909
+                                </a>
+                                <a href="mailto:nam.lehoai270301@gmail.com" class="form-body-link">
+                                    <i class="fas fa-envelope-square"></i>
+                                     nam.lehoai270301@gmail.com
+                                </a>
+                                <a href="https://www.google.com/maps/place/M%C3%AA+Pu,+%C4%90%E1%BB%A9c+Linh,+B%C3%ACnh+Thu%E1%BA%ADn,+Vi%E1%BB%87t+Nam/@11.274375,107.5489946,11.48z/data=!4m5!3m4!1s0x31746c842ea52337:0x628dac8157b299ba!8m2!3d11.2748358!4d107.627451?hl=vi-VN" class="form-body-link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                     MePu, Duc Linh - Binh Thuan
+                                </a>
+                            </div>
+                            <div class="form-option-footer">
+                                <a href="https://www.facebook.com/Lehoainam2703/" class="form-footer-link">
+                                    <i class="fab fa-facebook"></i>
+                                    
+                                </a>
+                                <a href="https://www.instagram.com/lehoainam2703/" class="form-footer-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="" class="form-footer-link">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+
+                            </div>
+
+                        </div>    
+
+                        <div class="form-input-right">
+                            <form class="form-right-wrap">
+                               <div class="form-right-head">
+                                    <label for="" class="label-name">
+                                        Your Name
+                                    </label>
+                                    <div class="form-input-name">
+                                        <i class="form-input-icon fas fa-user-check"></i>
+                                        <input type="text" class="input-name" placeholder="Enter your name" required id="contact-name">
+                                    </div>
+                               </div>
+                                <div class="form-right-body">
+                                    <label for="" class="label-mail">Mail</label>
+                                    <div class="form-input-mail">
+                                        <i class="form-input-icon far fa-envelope"></i>
+                                        <input type="email" name="" class="input-mail" placeholder="Enter your email" required id="contact-email">
+                                    </div>
+                                </div>
+    
+                               <div class="form-right-footer">
+                                    <label for="" class="label-message">
+                                        Message
+                                    </label>
+                                    <div class="form-input-message">
+                                        <input type="text" class="input-message" required id="contact-message">
+                                    </div>
+    
+                               </div>
+                                <input type="submit"  class="btn-send" value="SEND" onclick="onClickSend();"></input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="app-footer">
+        <div class="wide">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <span class="footer-item-title">
+                        VỀ SOCIALS & SPORT GAMING
+                    </span>
+                    <ul class="footer-about-list">
+                        <li class="footer-about-item">
+                            <a href="" class="footer-about-link">Giới thiệu về SSG</a>
+                        </li>
+                        <li class="footer-about-item">
+                            <a href="" class="footer-about-link">Điều khoản</a>
+                        </li>
+                        <li class="footer-about-item">
+                            <a href="" class="footer-about-link">Chính hãng</a>
+                        </li>
+                        <li class="footer-about-item">
+                            <a href="" class="footer-about-link">Chính sách bảo mật</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-item">
+                    <span class="footer-item-title">
+                        CÁCH THỨC THANH TOÁN
+                    </span>
+                    <ul class="footer-pay-list">
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay1.jpg" alt="" class="footer-pay">
+                        </li>
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay2.jpg" alt="" class="footer-pay">
+                        </li>
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay3.png" alt="" class="footer-pay">
+                        </li>
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay4.png" alt="" class="footer-pay">
+                        </li>
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay5.png" alt="" class="footer-pay">
+                        </li>
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay6.jpg" alt="" class="footer-pay">
+                        </li>
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay7.jfif" alt="" class="footer-pay">
+                        </li>
+                        <li class="footer-pay-item">
+                            <img src="./assets/img/pay-footer/pay8.jpg" alt="" class="footer-pay">
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="footer-item">
+                    <span class="footer-item-title">
+                        CHĂM SÓC KHÁCH HÀNG
+                    </span>
+                    <ul class="footer-contact-list">
+                        <li class="footer-contact-item">
+                            <a href="" class="footer-contact-link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <a href="" class="footer-contact-link">Hướng dẫn mua tài khoản,thuê, game</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <a href="" class="footer-contact-link">Thanh toán</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <a href="" class="footer-contact-link">Báo cáo lỗi & hoàn tiền</a>
+                        </li>
+                    </ul>
+                </li>
+
+
+            </ul>
+
+            <ul class="footer-list2">
+
+                <li class="footer-item2">
+                    <span class="footer-item2-title">THEO DÕI CHÚNG TÔI TRÊN</span>
+                    <a href="" class="footer-item2-link"><i class="footer-item2-icon fab fa-facebook"></i>Facebook</a>
+                    <a href="" class="footer-item2-link"><i class="footer-item2-icon fab fa-instagram"></i>Instagram</a>
+                    <a href="" class="footer-item2-link"><i class="footer-item2-icon fab fa-twitter"></i>Twitter</a>
+                </li>
+                <li class="footer-item2">
+                    <span class="footer-item2-title">TẢI ỨNG DỤNG SSG NGAY NÀO</span>
+                    <div class="footer-qr-wrap">
+                        <img src="./assets/img/qr-code-cua-nam.png" alt="" class="footer-qr-img">
+                        <div class="footer-download-apps">
+                            <a href="" class="footer-link-app">
+                                <img src="./assets/img/ggplay.png" alt="Google Play" class="footer-download-app-img">
+                            </a>
+                            <a href="" class="link-app">
+                                <img src="./assets/img/appstore.png" alt="Apps Store" class="footer-download-app-img">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+:root {
+    --primary-color:#050d17;
+    --second-color: #78e0c4;
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --icon-color: #2b92c3;
+    --background-navigation: #171f25;
+
+    --header-height:120px;
+    --navbar-height:34px;
+    --the-rest-of-header: calc(var(--header-height) - var(--navbar-height));
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.wide{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
