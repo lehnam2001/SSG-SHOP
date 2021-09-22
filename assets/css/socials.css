@@ -574,5 +574,10 @@
         height: auto;
     }
 
-    
+    .app-footer {
+
+        height: 650px;
+    }
 }
+
+
